@@ -8,6 +8,7 @@ addEventListener("DOMContentLoaded", function(){
     const ratingWindow = document.querySelector('.ratingWindow');
     const closeButton = document.querySelector('.closeButton');
     const listBody = document.querySelector('.listBody');
+    const dopBack = document.querySelector('.dopBack');
 
     const checkPoints = [
         {top: "-30px", left: "-95px"},
@@ -37,11 +38,13 @@ addEventListener("DOMContentLoaded", function(){
 
     ratingButton.addEventListener('click', function(){
         ratingWindow.style.display = "block";
+        dopBack.style.display= "block";
         ratingList();
     });
 
     closeButton.addEventListener('click', function(){
         ratingWindow.style.display = "none";
+        dopBack.style.display = "none";
     });
 
     function ratingList(){
