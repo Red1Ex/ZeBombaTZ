@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <img class="mapImage" src="src/map.png" alt="map" draggable="false">
+        <img class="character" src="src/icon.png" alt="character" draggable="false">
+        <div class="dopFunctions">
+            <div class="friendsSlider">
+                <button class="leftArrow"><img src="src/left.png" alt="left"></button>
+                <div class="sliderTrack">
+                    <button class="addFriend"><img src="src/plus.svg" alt="plus"></button>
+                    <button class="friend firstFriend"><img src="src/friendicon.png" alt="friends"></button>
+                    <button class="friend"><img src="src/friendicon.png" alt="friends"></button>
+                    <button class="friend"><img src="src/friendicon.png" alt="friends"></button>
+                    <button class="friend"><img src="src/friendicon.png" alt="friends"></button>
+                    <button class="friend"><img src="src/friendicon.png" alt="friends"></button>
+                    <button class="friend"><img src="src/friendicon.png" alt="friends"></button>
+                    <button class="friend empty"><img src="src/emptyicon.png" alt="empty"></button>
+                    <button class="friend empty"><img src="src/emptyicon.png" alt="empty"></button>
+                    <button class="friend empty"><img src="src/emptyicon.png" alt="empty"></button>
+                    <button class="friend empty"><img src="src/emptyicon.png" alt="empty"></button>
+                    <button class="friend empty"><img src="src/emptyicon.png" alt="empty"></button>
+                    <button class="friend empty"><img src="src/emptyicon.png" alt="empty"></button>
+                </div>
+                <button class="rightArrow"><img src="src/right.png" alt="right"></button>
+            </div>
+            <button class="chat"><img src="src/chatbutton.png" alt="chat"></button>
+            <button class="toUniversity">В УНИВЕР</button>
+            <button class="email"><a href="mailto:"><img src="src/mailbutton.png" alt="mail"></a></button>
+            <button class="rating"><img src="src/ratingbutton.png" alt="rating"></button>
+        </div>
+        <div class="ratingWindow">
+            <div class="ratingHeader">
+                <h3>Рейтинг игроков</h3>
+                <button class="closeButton"><img src="src/closeicon.svg" alt="close"></button>
+            </div>
+            <div class= "ratingList">
+                <div class = "listHead">
+                        <p class="place">Место</p>
+                        <p class="FI">Имя Фамилия</p>
+                        <p class="points">Опыт</p>
+                </div>
+                <div class="listBody">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
